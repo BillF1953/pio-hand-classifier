@@ -1,4 +1,4 @@
-# Pio Solver Hand Classification Program
+# Piosolver Hand Classification Program
 
 The program takes [Piosolver's](https://www.piosolver.com/) aggregated-analysis csv file and categorizes the hand and board texture into a hand type. For example "AdAc" on "Kd7c3c" would be classified as an "overpair". The hand classifications are output into a separate csv file. Currently the program has some buggy hand categorizations for flops and does not output data for paired boards. Please refer to Hand_Classifier_Tests.cpp for validated hand categories. 
 
