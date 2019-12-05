@@ -97,7 +97,7 @@ __pycache__
 .#*
 .coverage
 .pytest_cache
-src
+
 
 *.swp
 *.map
@@ -114,3 +114,5 @@ geckodriver.log
 
 /cmake-build-debug
 /pio_test_data
+/build
+handClassifier.sh

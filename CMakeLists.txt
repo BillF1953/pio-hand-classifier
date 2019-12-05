@@ -5,7 +5,7 @@ project(HandClassifier)
 set(CMAKE_CXX_STANDARD 11)
 if(WIN32)
     include_directories("..\\fast-cpp-csv-parser")
-    set(SOURCE_FILES src\\main.cpp src\\HandClassifier.cpp src\\HandClassifier.h tst\\catch.hpp tst\\Hand_Classifier_Tests.cpp)
+    set(SOURCE_FILES src/main.cpp src/HandClassifier.cpp src/HandClassifier.h tst/catch.hpp tst/Hand_Classifier_Tests.cpp)
 endif(WIN32)
 
 if(UNIX)
