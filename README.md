@@ -4,7 +4,7 @@ The program takes [Piosolver's](https://www.piosolver.com/) aggregated-analysis 
 
 The CMakeLists.txt file works in CLion on Windows 8.1 and Ubuntu 16.04 and 18.04. The [fast-cpp-csv-parser library](https://github.com/ben-strasser/fast-cpp-csv-parser) is required. [Catch2](https://github.com/catchorg/Catch2) testing framework is included.  
 
-In the R folder, there is a file "combine_csv.r" which requires the dplyr library. The function `read.cat()` will produce a dataframe from the two csv files. If no hand categorization csv file is given, the function will automatically search the current working directing for a file with the name "filenameHandCat.csv" and attempt to merge these files. The dataframe will also include a series of simpler hand categories which I have found useful in analysis. 
+In the R folder, there is a file "combine_csv.r" which requires the dplyr library. The function `read.cat()` will produce a dataframe from the two csv files. If no hand categorization csv file is given, the function will automatically search the current working directory for a file with the name "filenameHandCat.csv" and attempt to merge these files. The dataframe will also include a series of simpler hand categories which I have found useful in analysis. 
 
 ## Getting Started
 
